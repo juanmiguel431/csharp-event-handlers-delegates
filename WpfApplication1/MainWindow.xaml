@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="204" Width="509">
+    <Grid Height="187" VerticalAlignment="Top">
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="158,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.242,1.022" Height="40" Width="152" Click="button_Click"/>
+
     </Grid>
 </Window>
