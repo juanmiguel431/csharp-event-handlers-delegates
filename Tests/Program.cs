@@ -84,6 +84,8 @@ namespace Tests
     
     internal class Program
     {
+        public event EventHandler<EventArgs> EventHanlder; 
+
         public static void Main(string[] arguments)
         {
             Nullable<int> number = new Tests.Nullable<int>();
@@ -99,6 +101,8 @@ namespace Tests
             var cc = aa + bb;
 
 
+            EventHandler<EventArgs> eventHandler;
+            
 
 
             var videos = new List<Video>()
