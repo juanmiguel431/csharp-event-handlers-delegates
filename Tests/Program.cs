@@ -96,9 +96,9 @@ namespace Tests
             Console.WriteLine(number.Value);
 
 
-            dynamic aa = 1;
-            var bb = 2;
-            var cc = aa + bb;
+            // dynamic aa = 1;
+            // var bb = 2;
+            // var cc = aa + bb;
 
 
             EventHandler<EventArgs> eventHandler;
